@@ -1,0 +1,26 @@
+Email Reminder System
+
+A simple Node.js app that stores reminders in MongoDB and automatically sends scheduled emails using Nodemailer and node-cron.
+
+##  How to Run
+
+Install dependencies  
+   ```bash
+   Npm install
+
+Set up your .env file:
+
+EMAIL_USER=shanvi199@gmail.com
+EMAIL_PASS= shanvi@15
+
+
+Start the server
+
+Npm start
+
+
+Add reminders using Postman:
+
+POST http://localhost:5000/add
+
+Body (JSON):
